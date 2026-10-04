@@ -10,6 +10,8 @@ services:
         sync: false                   # Set this in Render dashboard
       - key: LANGSMITH_API_KEY
         sync: false                   # Set this in Render dashboard
+      - key: PINECONE_API_KEY
+        sync: false 
       - key: LANGSMITH_PROJECT
         value: week16-shopassist
       - key: LANGCHAIN_TRACING_V2
